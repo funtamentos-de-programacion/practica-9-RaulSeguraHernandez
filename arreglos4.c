@@ -5,7 +5,13 @@
 //  id: suma
 //  tipo de retorno int
 //  argumento un apuntador a entero y un entero
-
+int suma(int*, int);
+int suma(int *a, int size){
+    int resultado;
+    for (int 1=0; i<size; i++){
+        resultado =*(a+i)
+    }
+}
 
 int main() {
     int arr[5] = {1, 2, 3, 4, 5};
